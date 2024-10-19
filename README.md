@@ -1,3 +1,4 @@
+Entra en /code para leer el Read.me correctamente:
 Proyecto: Gestión de Reservas de Pádel
 ----------------------------------------------------------------------------------------
 Autores: Pau y David
