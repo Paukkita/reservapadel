@@ -1,23 +1,14 @@
 package com.example.reservapadel.DTO;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 
 public class ReservaDTO {
     private String usuarioEmail;
     private String pistaNombre;
-    private LocalDate fechaReserva;
-    private LocalTime horaInicio;
-    private LocalTime horaFin;
+    private LocalDate fechaReserva; //
+    private String horaInicio;
+    private String horaFin;
 
-//Constructor
-    public ReservaDTO(String usuarioEmail, String pistaNombre, LocalDate fechaReserva, LocalTime horaInicio, LocalTime horaFin) {
-        this.usuarioEmail = usuarioEmail;
-        this.pistaNombre = pistaNombre;
-        this.fechaReserva = fechaReserva;
-        this.horaInicio = horaInicio;
-        this.horaFin = horaFin;
-    }
     // Getters y Setters
     public String getUsuarioEmail() {
         return usuarioEmail;
@@ -43,21 +34,19 @@ public class ReservaDTO {
         this.fechaReserva = fechaReserva;
     }
 
-    public LocalTime getHoraInicio() {
+    public String getHoraInicio() {
         return horaInicio;
     }
 
-    public void setHoraInicio(LocalTime horaInicio) {
+    public void setHoraInicio(String horaInicio) {
         this.horaInicio = horaInicio;
     }
 
-    public LocalTime getHoraFin() {
+    public String getHoraFin() {
         return horaFin;
     }
 
-    public void setHoraFin(LocalTime horaFin) {
+    public void setHoraFin(String horaFin) {
         this.horaFin = horaFin;
     }
-
-
 }
