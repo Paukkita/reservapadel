@@ -8,3 +8,5 @@ Tecnologías Utilizadas:
 
 Backend: IntelliJ (como entorno de desarrollo integrado para PHP)
 Base de datos: MySQL (accedido a través de phpMyAdmin)
+
+Estado del Proyecto: Finalizado, pendiente de revisión.
