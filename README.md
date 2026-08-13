@@ -1,6 +1,6 @@
 # Gestion de Reservas de Padel
 
-> Aplicacion para la gestion eficiente de reservas de canchas de padel con control de usuarios y disponibilidad en tiempo real.
+Aplicacion para la gestion eficiente de reservas de canchas de padel con control de usuarios y disponibilidad en tiempo real.
 
 ---
 
